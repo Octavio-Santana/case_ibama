@@ -33,11 +33,7 @@ O que seria este custo beneficio médio?
 
 Se escolhermos o custo beneficio como 
 
-$$
-\begin{equation}
-\frac{Custo}{Volume}, \nonumber
-\end{equation}
-$$
+> Custo / Volume
 
 estas seriam as empresas mais indicadas.
 
@@ -47,7 +43,9 @@ estas seriam as empresas mais indicadas.
 > **Custo beneficio médio por KM**
 
 Se escolhermos o custo beneficio como 
-$$\frac{Custo}{Km},$$
+
+> Custo / distancia
+
 estas seriam as empresas mais indicadas.
 
 ![Custo beneficio médio por km](figuras/custo_beneficio_medio_por_km.png)
@@ -55,7 +53,9 @@ estas seriam as empresas mais indicadas.
 > **Custo beneficio médio por KM e Volume**
 
 Se escolhermos o custo beneficio como 
-$$\frac{Custo}{Km*Volume},$$
+
+> Custo / (distancia*Volume)
+
 estas seriam as empresas mais indicadas.
 
 ![Custo beneficio médio por kme volume](figuras/custo_beneficio_medio_por_km_e_volume.png)
