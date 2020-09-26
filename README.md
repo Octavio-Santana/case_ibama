@@ -44,7 +44,7 @@ Se escolhermos o custo beneficio como
 $$\frac{Custo}{Km},$$
 estas seriam as empresas mais indicadas.
 
-[![Custo beneficio médio por km](figuras/custo_beneficio_medio_por_km.png)]
+![Custo beneficio médio por km](figuras/custo_beneficio_medio_por_km.png)
 
 > **Custo beneficio médio por KM e Volume**
 
@@ -52,7 +52,7 @@ Se escolhermos o custo beneficio como
 $$\frac{Custo}{Km*Volume},$$
 estas seriam as empresas mais indicadas.
 
-[![Custo beneficio médio por kme volume](figuras/custo_beneficio_medio_por_km_e_volume.png)]
+![Custo beneficio médio por kme volume](figuras/custo_beneficio_medio_por_km_e_volume.png)
 
 
 # Modelo Preditivo
@@ -65,61 +65,61 @@ estas seriam as empresas mais indicadas.
 ### Mean Squared Error
 
 - Modelo LinearRegression: 
- - Train = 3058.8275018862537 
- - Test = 4029.0011831166994
+    - Train = 3058.8275018862537 
+    - Test = 4029.0011831166994
 
 - Modelo RandomForestRegressor
- - Train = 1761.8986009848522 
- - Test = 2089.0912284431965
+    - Train = 1761.8986009848522 
+    - Test = 2089.0912284431965
 
 - Modelo RandomForestRegressor - com o ln(target)
- - Train = 0.5119015312697583 
- - Test = 0.6331961020675777
+    - Train = 0.5119015312697583 
+    - Test = 0.6331961020675777
 
 - Modelo GradientBoostingRegressor
- - Train = 866.8395582323021 
- - Test = 1999.6841731996237
+    - Train = 866.8395582323021 
+    - Test = 1999.6841731996237
 
 ### Median Absolute Error
 
 - Modelo LinearRegression: 
- - Train = 475.8846077459551 
- - Test = 679.5997814696431
+    - Train = 475.8846077459551 
+    - Test = 679.5997814696431
 
 - Modelo RandomForestRegressor:
- - Train = 60.18408749695329 
- - Test = 72.2640874969533 
+    - Train = 60.18408749695329 
+    - Test = 72.2640874969533 
 
 - Modelo RandomForestRegressor - com o ln(target):
- - Train = 0.26132208521896816 
- - Test = 0.23491884197709112
+    - Train = 0.26132208521896816 
+    - Test = 0.23491884197709112
 
 - Modelo GradientBoostingRegressor
- - Train = 25.81724632880654 
- - Test = 47.02170139644511
+    - Train = 25.81724632880654 
+    - Test = 47.02170139644511
 
 ### Mean Absolute Percentage Error
 
 - Modelo LinearRegression: 
- - Train = 10.584493317101405
- - Test = 11.290700977472765  
+    - Train = 10.584493317101405
+    - Test = 11.290700977472765  
 
 - Modelo RandomForestRegressor:
- - Train = 2.300141354663869
- - Test = 2.2973722565649184 
+    - Train = 2.300141354663869
+    - Test = 2.2973722565649184 
 
 - Modelo RandomForestRegressor - com o ln(target):
- - Train = 0.08928178859193564
- - Test = 0.09382994265008338  
+    - Train = 0.08928178859193564
+    - Test = 0.09382994265008338  
 
 - Modelo GradientBoostingRegressor
- - Train = 0.6056486807034025
- - Test = 1.058667691289626 
+    - Train = 0.6056486807034025
+    - Test = 1.058667691289626 
 
  
 ## Comparação gráfica dos modelos nos dados de teste
 
-[![predição com os dados de teste](figuras/predicao_com_os_dados_de_teste.png)]
+![predição com os dados de teste](figuras/predicao_com_os_dados_de_teste.png)
 
 
 Dentro dos modelos analisados, o ``GrandienBoostingRegressor`` apresentou o melhor resultado com relação as 3 metricas utilizadas. Bem como podemos ver visualmente nos gráficos acima que as previsões do modelo ``GrandienBoostingRegressor`` é a que se aproxima melhor do valor real, quando o frete cobrado é maior que R$ 2500,00 reais.
@@ -136,7 +136,7 @@ Obs.: O modelo RandomForestRegressor - com o ln(target) teve o melhor resultado 
 - Distância (km): 500;
 - Produto: Madeira serrada (prancha);
 
-[![predição com os dados de teste](figuras/predicao_exemplo.png)]
+![predição com os dados de teste](figuras/predicao_exemplo.png)
 
 
 
