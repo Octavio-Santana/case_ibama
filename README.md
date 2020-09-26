@@ -35,7 +35,7 @@ Se escolhermos o custo beneficio como
 $$\frac{Custo}{Volume},$$
 estas seriam as empresas mais indicadas.
 
-[![Custo beneficio médio por Volume](figuras/custo_beneficio_medio_por_volume.png)]
+![Custo beneficio médio por Volume](figuras/custo_beneficio_medio_por_volume.png)
 
 
 > **Custo beneficio médio por KM**
