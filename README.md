@@ -33,9 +33,11 @@ O que seria este custo beneficio médio?
 
 Se escolhermos o custo beneficio como 
 
+$$
 \begin{equation}
 \frac{Custo}{Volume}, \nonumber
 \end{equation}
+$$
 
 estas seriam as empresas mais indicadas.
 
