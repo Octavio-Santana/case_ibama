@@ -32,7 +32,11 @@ O que seria este custo beneficio médio?
 > **Custo beneficio médio por Volume**
 
 Se escolhermos o custo beneficio como 
-$$\frac{Custo}{Volume},$$
+
+\begin{equation}
+\frac{Custo}{Volume}, \nonumber
+\end{equation}
+
 estas seriam as empresas mais indicadas.
 
 ![Custo beneficio médio por Volume](figuras/custo_beneficio_medio_por_volume.png)
